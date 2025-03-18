@@ -1,0 +1,27 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: end;
+    font-size:2vw;
+   
+}
+.header-list{font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5vw;
+    list-style-type: none;
+    margin:1rem;
+    padding-left: 1rem;
+    padding-right:1rem;
+    display:flex;
+    justify-content: end;
+}
+header .logo {
+    width: auto;
+   max-width: 100%;
+   height: auto;
+  }
+  
+  nav ul li{margin: 0 1rem;
+   
+    
+  }

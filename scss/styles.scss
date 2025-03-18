@@ -1,0 +1,151 @@
+@use 'reset';
+@use 'header';
+@use 'footer';
+@use 'forms';
+@use 'variables' as var;
+header{
+    color:var.$cafe-brown;
+}
+body{
+    background-color: var.$cafe-pink;
+    color: var.$cafe-brown;
+};
+a{
+    color:var.$cafe-brown;
+}
+
+.hero{
+    background-image: url(/IMG/IMG_4315.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100vw;
+    height:100vh;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+}
+.hero-title{
+    background-color: var.$translucent-white;
+    border-radius: .5rem;
+   
+}
+.insta-button{
+    cursor: pointer;
+    background-color: var.$translucent-white;
+    border:none;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0.3rem;
+border-radius:.5rem;
+}
+.featured h3{
+    display:flex;
+    justify-content: center; 
+}
+.cafes{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    figure{
+        background-color: var.$translucent-white;
+        padding: 1rem;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    img{
+        width: 100%;
+        max-width: 60vh;
+        height: auto;
+        max-height: 50vh;
+        object-fit: cover;
+        aspect-ratio: 4/3;
+        object-position: center;
+        place-items: center;
+    }
+}
+.gallery h3{
+    display:flex;
+    justify-content: center;}
+.gallery-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap:20px;
+
+ 
+    img{
+        width:100%;
+        height:auto;
+        object-fit: contain;
+        object-position: center;
+    }
+}
+.about {
+    h3{display: flex;
+        justify-content: center;}
+}
+.about-info{
+    display:flex;
+    align-items: flex-start;
+    img{
+        max-width: 40%;
+        height: auto;
+        margin-right: 5vw;
+        border-radius: 50%;
+
+    }
+    about-text{display: block;
+       
+        width:60%; 
+     
+ 
+
+    }
+    p{ display: block;
+        margin: 0;
+        background-color: var.$translucent-white;
+        padding: 10px;
+
+      
+      
+    }
+}
+.contact{
+   h3{display:flex;
+    justify-content: center;
+   }
+   p{display:flex;
+    justify-content: center;
+    font-size: 0.75rem;
+   }
+   form{
+display: flex;
+    input{margin: 2%;
+    width:100%}
+    label{white-space:nowrap;
+        flex-direction: row;
+        align-content: center ;
+    }
+    textarea{
+        width:100%;
+        flex-direction: row;
+        margin: 1%;
+    }
+    button{
+        margin:1%
+    }
+   }
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+  max-width: 10rem;
+    }
+}

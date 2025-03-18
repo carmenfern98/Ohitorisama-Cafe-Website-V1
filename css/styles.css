@@ -1,0 +1,187 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: end;
+  font-size: 2vw;
+}
+
+.header-list {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5vw;
+  list-style-type: none;
+  margin: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: end;
+}
+
+header .logo {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+header .logo {
+  width: 7.5rem;
+  height: 7.5rem;
+  display: inline;
+}
+
+header {
+  color: #572f2f;
+}
+
+body {
+  background-color: #ffa6ef;
+  color: #572f2f;
+}
+
+a {
+  color: #572f2f;
+}
+
+.hero {
+  background-image: url(/IMG/IMG_4315.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-title {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0.5rem;
+}
+
+.insta-button {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  font-family: "Courier New", Courier, monospace;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+}
+
+.featured h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.cafes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.cafes figure {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cafes img {
+  width: 100%;
+  max-width: 60vh;
+  height: auto;
+  max-height: 50vh;
+  object-fit: cover;
+  aspect-ratio: 4/3;
+  object-position: center;
+  place-items: center;
+}
+
+.gallery h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+}
+
+.about h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.about-info {
+  display: flex;
+  align-items: flex-start;
+}
+.about-info img {
+  max-width: 40%;
+  height: auto;
+  margin-right: 5vw;
+  border-radius: 50%;
+}
+.about-info about-text {
+  display: block;
+  width: 60%;
+}
+.about-info p {
+  display: block;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+}
+
+.contact h3 {
+  display: flex;
+  justify-content: center;
+}
+.contact p {
+  display: flex;
+  justify-content: center;
+  font-size: 0.75rem;
+}
+.contact form {
+  display: flex;
+}
+.contact form input {
+  margin: 2%;
+  width: 100%;
+}
+.contact form label {
+  white-space: nowrap;
+  flex-direction: row;
+  align-content: center;
+}
+.contact form textarea {
+  width: 100%;
+  flex-direction: row;
+  margin: 1%;
+}
+.contact form button {
+  margin: 1%;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-media img {
+  max-width: 10rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
